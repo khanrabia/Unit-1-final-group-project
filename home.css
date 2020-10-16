@@ -194,6 +194,7 @@ h1{
   color: #CD5C5C;
   padding: 5%;
   margin-left: -1%;
+  margin-right: -4%;
 }
 
 p1{
@@ -335,6 +336,7 @@ p5{
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+
   
 }
 .large, #rows-p {
