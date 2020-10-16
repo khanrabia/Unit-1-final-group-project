@@ -1,0 +1,220 @@
+body {
+   margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: #DB7093;
+    border-bottom-width: 2px;
+}
+
+#logo {
+    width: 20%;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#marry {
+    width: 30%;
+}
+
+.ring, .calendar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.whole, .events {
+    padding-top: 40px;
+}
+
+.begin, #love, #quote, #banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.begin {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -20px;
+}
+
+#love, #quote, .events {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 60px;
+}
+
+.nav div {
+    margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Stencil Std;
+}
+
+#pin {
+    width: 10%;
+}
+
+#banner {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url('https://www.rocknrollbride.com/wp-content/uploads/2020/06/Navigating-your-Way-through-Planning-an-LGBTQ-Wedding-10.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.love {
+    display: block;
+    width: 10%;
+}
+
+.events {
+    display: flex;
+}
+
+.bottom-box {
+    padding-bottom: 50px;
+}
+
+.plans {
+    padding-left: 100px;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid black;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.right-box {
+    display: inline-block;
+    align-items: center;
+}
+
+.column {
+    display: inline-block;
+}
+  
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+#semi-logo {
+    display: flex;
+    width: 15%;
+}
+
+.foot {
+   display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.large, #rows-p {
+    padding-top: 40px;
+    
+}
+
+#rows1 {
+    padding-top: 50px;
+}
+
+#logo2 {
+    width: 150px;
+}
+
+#foot-logo {
+    width: 10%;
+}
+
+.foot a, h2 {
+    padding-left: 30px;
+}
+
+span {
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.left-side, .footer {
+    display: inline-block;
+}
+
+.privacy {
+    margin: 20px;
+}
+
+/*.events {
+    background-image: url('https://s3.us-west-2.amazonaws.com/images.herecomestheguide.com/images/articles/_800x418_crop_center-center_82_none/LGBTQWeddingIdeas-AmberRobinson.jpg?mtime=1573003766');
+    
+    
+}*/
+
+.cal {
+    border: 1px solid grey;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    margin-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.rainbow {
+  height: 5px;
+  width: 100%;
+  border: none;
+ background-image: -webkit-gradient(linear, 0 0, 100% 0, from(red), color-stop(0.08, orange), color-stop(0.17, yellow), color-stop(0.25, green), color-stop(0.33, blue), color-stop(0.42, indigo), color-stop(0.5, violet), color-stop(0.58, indigo), color-stop(0.67, blue), color-stop(0.75, green), color-stop(0.83, yellow), color-stop(0.92, orange), to(red));
+ background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+  background-size: 50% auto;
+  
+ -webkit-animation: unicorn 2.5s forwards linear infinite;
+}
+
+@-webkit-keyframes unicorn {
+  from { background-position: top left; }
+  to { background-position: top  right; }
+}
