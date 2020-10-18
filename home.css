@@ -243,7 +243,7 @@ h4{
   display:flex;
   flex-direction: row;
   font-weight: 10px;
-  margin-left: 27%;
+  margin-left: 48%;
   margin-top: -14.5%;
   font-size: 130%;
   padding: 8px;
@@ -253,7 +253,7 @@ p4{
   display:flex;
   flex-direction: row;
   font-weight: 10px;
-  margin-left: 25.5%;
+  margin-left: 46.5%;
   padding:2%;
   width: 20%;
   margin-top:-15px;
@@ -263,7 +263,7 @@ p4{
   border: none;
   text-align: center;
   cursor: pointer;
-  margin-left:27.5%;
+  margin-left:48.5%;
   padding: 1%;
   color:white;
   background-color:#B22222 ;
@@ -271,37 +271,6 @@ p4{
   font-size: 20px;
 }
 
-h5{
-  display:flex;
-  flex-direction: row;
-  font-weight: 10px;
-  margin-left: 60%;
-  margin-top: -14%;
-  font-size: 130%;
-  padding: 8px;
-}
-p5{
-  display:flex;
-  flex-direction: row;
-  font-weight: 10px;
-  margin-left: 58.5%;
-  padding:2%;
-  width: 20%;
-  margin-top: -2%;
-
-}
-.button3 {
-  border: none;
-  text-align: center;
-  text-decoration: white;
-  cursor: pointer;
-  margin-left:60.5%;
-  padding: 1%;
-  color:white;
-  background-color:#B22222 ;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-}
 .rainbow {
   height: 5px;
   width: 100%;
