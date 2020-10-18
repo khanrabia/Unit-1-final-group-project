@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*position: sticky;*/
+    top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid pink;
+}
+#logo {
+    height: 150px;
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 60px;
+}
+.nav div {
+    margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Stencil Std;
+}
+
+body {
+  background-color: white;
+  /*background-image: url("https://cdn1.neoskosmos.com/uploads/sites/2/2017/11/SameSexMarriage_PopsugarviaGetty-1024x576.jpg");*/
+}
+#points {
+  width: 75%;
+  padding: 24px;
+  margin: 5px auto;
+  color: jet-black;
+  background-color: #fd593d;
+}
+
+#points h2 {
+  margin-top: 0;
+  font-style: oblique 40deg;
+}
+
+#points ul {
+  font-size: 15px;
+}
+
+/*h2 {*/
+/*  margin-top: 0;*/
+/*}*/
+
+li {
+  margin-bottom: 12px;
+}
+
+#same-sex {
+  display: flex;
+  /*color: white;*/
+  margin: auto;
+  padding: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h3 {
+  font-size: 130%;
+  font-style: oblique 40deg;
+  margin-bottom: 16px;
+}
+
+.article {
+  display: flex;
+  /*align-content: right;*/
+  width: 30%;
+  /*align-items: right;*/
+  flex-direction: column;
+  border-style: dashed;
+  border-width: 25px 15px;
+  min-width: 300px;
+  padding: 3%;
+  margin: 10px;
+}
+
+.article h3 {
+  font-size: 180%;
+  font-style: oblique 40deg;
+}
+
+.article a {
+  font-style: oblique;
+  text-decoration: none;
+  font-size: 140%;
+  margin-bottom: 12px;
+}
+
+.video {
+  padding: 2%;
+  margin: 10px;
+  border-style: dashed;
+  border-width: 25px 15px;
+  align-items: auto;
+}
+
+.video p {
+  margin-top: 12px;
+  
+}
+
+iframe {
+  width: 530px;
+  height: 340px;
+  margin: 2px auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*.article {*/
+/*  width: 100%;*/
+/*  height: 300;*/
+/*}*/
+
+/*.video {*/
+/*    display: flex;*/
+/*    align-content: right;*/
+/*    width: 120%;*/
+/*}*/
+
+/*#same-sex {*/
+/*  display: flex;*/
+  /*margin: auto;*/
+/*  padding: 0px;*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+  /*flex-wrap: wrap;*/
+/*  justify-content: space-evenly;*/
+/*  align-items: center;*/
+/*  margin-top: 20px;*/
+/*}*/
+
+/*iframe{*/
+/*  display: flex;*/
+/*  width: 60%;*/
+/*  height: 600px;*/
+/*  padding: 5%;*/
+/*  position: fixed;*/
+/*  align-content: right;*/
+/*  margin-left: 50%;*/
+/*}*/
+
+/*.tube {*/
+/*  width: 26%;*/
+/*  height: 40%;*/
+/*  padding: 15%;*/
+/*  margin-left: 50%;*/
+/*}*/
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.slide {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.rainbow {
+  height: 5px;
+  width: 100%;
+  border: none;
+ background-image: -webkit-gradient(linear, 0 0, 100% 0, from(red), color-stop(0.08, orange), color-stop(0.17, yellow), color-stop(0.25, green), color-stop(0.33, blue), color-stop(0.42, indigo), color-stop(0.5, violet), color-stop(0.58, indigo), color-stop(0.67, blue), color-stop(0.75, green), color-stop(0.83, yellow), color-stop(0.92, orange), to(red));
+ background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+  background-size: 50% auto;
+  
+ -webkit-animation: unicorn 2.5s forwards linear infinite;
+}
+@-webkit-keyframes unicorn {
+  from { background-position: top left; }
+  to { background-position: top  right; }
+}
+
+.foot {
+   display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.rows {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  /*padding: 3px;*/
+  flex: 1;
+}
+#rows-p {
+  padding: 3px;
+}
+
+#rows-p a {
+  margin-bottom: 3px;
+}
+/*.rows #rows-p {*/
+/*  justify-content: right;*/
+/*}*/
+
+.large, #rows-p {
+    padding-top: 40px;
+    
+}
+#rows1 {
+    padding-top: 50px;
+}
+#logo2 {
+    width: 150px;
+}
+
+a img {
+  height: 100px;
+}
+
+
+
+@media (max-width: 650px) {
+    
+}
